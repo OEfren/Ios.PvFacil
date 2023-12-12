@@ -4,8 +4,11 @@
 //
 //  Created by Efren Ordaz on 03/12/23.
 //
+// https://www.kodeco.com/7363101-google-maps-ios-sdk-tutorial-getting-started
+
 
 import UIKit
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyAXV0Mq9yBYXEH5wf7DL3snRvvSKjiAuT8")
         return true
     }
 
