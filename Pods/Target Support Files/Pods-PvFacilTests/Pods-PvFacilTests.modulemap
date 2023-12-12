@@ -1,0 +1,6 @@
+framework module Pods_PvFacilTests {
+  umbrella header "Pods-PvFacilTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17131F118D601DF6E2AD7E77085554CC /* Pods-PvFacil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 665FC1FD4EB30F66ECB67020E2762898 /* Pods-PvFacil-dummy.m */; };
+		21B32C0522B83261C9F4AED5B70FD3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3494DB5FAF4FB12F5237F8D8C1E89F46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		63B706D419E5CF03EAE3362D80C5A4C2 /* Pods-PvFacil-PvFacilUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0D27D56FD3A92473EAFA269C42242 /* Pods-PvFacil-PvFacilUITests-dummy.m */; };
+		88363FDE2A3228E9121518CBEB8C9296 /* Pods-PvFacil-PvFacilUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D307DDBBC29A90A426019CD3E3571CEB /* Pods-PvFacil-PvFacilUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51C4D627A6B009A7386908127ACFCC3 /* Pods-PvFacilTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3290FC2F7DE4A1F45D6BF3F9A4C9D3 /* Pods-PvFacilTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D506D318242CDE9C467A82BA311CBE92 /* Pods-PvFacil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C879FBE1A7EAD8D5BF0532DC45051A /* Pods-PvFacil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E885C36627F66EA175F9CA18439DB32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EDD176FB26B141E64F089FBB65577876 /* Pods-PvFacilTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337E7F865F69CCDF50596A5C40909F08 /* Pods-PvFacilTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26AF088E2662A09B41ECAAFEA293A00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF89B0AA975806A605CA31308FD57A2;
+			remoteInfo = "Pods-PvFacil";
+		};
+		827A6F1CC7A2C44284A4CF8B4B7C9D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		E1AF93930D3A3F09098CB5844D68B30A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CA5291EE0A5426C20C2F3C5A1D0983 /* Pods-PvFacil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PvFacil.modulemap"; sourceTree = "<group>"; };
+		19112C8CBCAB5D8F2308714BFBF436D5 /* Pods-PvFacil-PvFacilUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacil-PvFacilUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C3290FC2F7DE4A1F45D6BF3F9A4C9D3 /* Pods-PvFacilTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PvFacilTests-umbrella.h"; sourceTree = "<group>"; };
+		2EF9C8DFB6FBEC3C20ED8279530FEA0F /* Pods_PvFacil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PvFacil.framework; path = "Pods-PvFacil.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		337E7F865F69CCDF50596A5C40909F08 /* Pods-PvFacilTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PvFacilTests-dummy.m"; sourceTree = "<group>"; };
+		33C6DFA6D61CA2EBFEFFBFE4E09FB26E /* Pods-PvFacilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacilTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A89783B76D61A5E37471D6A16FC8A95 /* Pods-PvFacil-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PvFacil-acknowledgements.markdown"; sourceTree = "<group>"; };
+		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		665FC1FD4EB30F66ECB67020E2762898 /* Pods-PvFacil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PvFacil-dummy.m"; sourceTree = "<group>"; };
+		6AD0D27D56FD3A92473EAFA269C42242 /* Pods-PvFacil-PvFacilUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PvFacil-PvFacilUITests-dummy.m"; sourceTree = "<group>"; };
+		722643B1EB4EC2FF36D700749E7046C4 /* Pods-PvFacil-PvFacilUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PvFacil-PvFacilUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		790B064F16E88C83669477D8AFB19FC8 /* Pods-PvFacil-PvFacilUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacil-PvFacilUITests-Info.plist"; sourceTree = "<group>"; };
+		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		90C879FBE1A7EAD8D5BF0532DC45051A /* Pods-PvFacil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PvFacil-umbrella.h"; sourceTree = "<group>"; };
+		985D6FB0882200689AFA6DEA34B9B92C /* Pods-PvFacil-PvFacilUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PvFacil-PvFacilUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98C287CACAF0A2A7C1EC3DB1794A4843 /* Pods-PvFacil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacil-Info.plist"; sourceTree = "<group>"; };
+		99DF311BFB8F005215608501F5601880 /* Pods-PvFacil-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PvFacil-resources.sh"; sourceTree = "<group>"; };
+		9BBFC3427BCB02F482295B134C2980CE /* Pods-PvFacilTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PvFacilTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61C0422E7784DE7EC0A417C0B6E081B /* Pods-PvFacilTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacilTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A73C1A22A12DD055C5BBEA25AD34B8AC /* Pods-PvFacilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8ED347944108DB2EE919E2BDED1CBB1 /* Pods-PvFacilTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacilTests-Info.plist"; sourceTree = "<group>"; };
+		AA7EFB4D000FADC12B665B8FDEF92858 /* Pods-PvFacil-PvFacilUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PvFacil-PvFacilUITests-resources.sh"; sourceTree = "<group>"; };
+		B014249D20F5321DC5BEFA6EE69CB7C1 /* Pods-PvFacil-PvFacilUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacil-PvFacilUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1AA92F60452F7A2DB3DD3E92BA9C633 /* Pods-PvFacil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacil.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9265126F8C0BAB4BD04587604B8CE7 /* Pods-PvFacil-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PvFacil-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEA0FA1D989C2474A1C474B8C90AC1BC /* Pods-PvFacil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacil.release.xcconfig"; sourceTree = "<group>"; };
+		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		D07055516843D4722579BF83C36B144E /* Pods_PvFacilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PvFacilTests.framework; path = "Pods-PvFacilTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D307DDBBC29A90A426019CD3E3571CEB /* Pods-PvFacil-PvFacilUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PvFacil-PvFacilUITests-umbrella.h"; sourceTree = "<group>"; };
+		F6302B8FD044C377E38CB00D48840468 /* Pods-PvFacil-PvFacilUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PvFacil-PvFacilUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F90AD97BBC657CCEDE6FBF0A5C3877A7 /* Pods-PvFacilTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PvFacilTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F953DD1F7F9B177DC813B6B233F63877 /* Pods_PvFacil_PvFacilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PvFacil_PvFacilUITests.framework; path = "Pods-PvFacil-PvFacilUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B53829BBC77C289F5ED980EA03342CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3494DB5FAF4FB12F5237F8D8C1E89F46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322FAD9B399DCCC8B3172DEDF0B4E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B32C0522B83261C9F4AED5B70FD3EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E488683A58DBCE70D8EACDA4784B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885C36627F66EA175F9CA18439DB32D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E42C0F96D78A8486C267E3A44F19CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20130D41E33F1E87D6ECBF61E3B432F /* Pods-PvFacil */,
+				3DABBCD756660F6BAF7B460425DCD7AC /* Pods-PvFacil-PvFacilUITests */,
+				46DF9D2F35D2F99E36D002BECDBDE74E /* Pods-PvFacilTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C4EB33A076BB7654667F327222F2A96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		3DABBCD756660F6BAF7B460425DCD7AC /* Pods-PvFacil-PvFacilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				722643B1EB4EC2FF36D700749E7046C4 /* Pods-PvFacil-PvFacilUITests.modulemap */,
+				985D6FB0882200689AFA6DEA34B9B92C /* Pods-PvFacil-PvFacilUITests-acknowledgements.markdown */,
+				19112C8CBCAB5D8F2308714BFBF436D5 /* Pods-PvFacil-PvFacilUITests-acknowledgements.plist */,
+				6AD0D27D56FD3A92473EAFA269C42242 /* Pods-PvFacil-PvFacilUITests-dummy.m */,
+				790B064F16E88C83669477D8AFB19FC8 /* Pods-PvFacil-PvFacilUITests-Info.plist */,
+				AA7EFB4D000FADC12B665B8FDEF92858 /* Pods-PvFacil-PvFacilUITests-resources.sh */,
+				D307DDBBC29A90A426019CD3E3571CEB /* Pods-PvFacil-PvFacilUITests-umbrella.h */,
+				F6302B8FD044C377E38CB00D48840468 /* Pods-PvFacil-PvFacilUITests.debug.xcconfig */,
+				B014249D20F5321DC5BEFA6EE69CB7C1 /* Pods-PvFacil-PvFacilUITests.release.xcconfig */,
+			);
+			name = "Pods-PvFacil-PvFacilUITests";
+			path = "Target Support Files/Pods-PvFacil-PvFacilUITests";
+			sourceTree = "<group>";
+		};
+		46DF9D2F35D2F99E36D002BECDBDE74E /* Pods-PvFacilTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFC3427BCB02F482295B134C2980CE /* Pods-PvFacilTests.modulemap */,
+				F90AD97BBC657CCEDE6FBF0A5C3877A7 /* Pods-PvFacilTests-acknowledgements.markdown */,
+				A61C0422E7784DE7EC0A417C0B6E081B /* Pods-PvFacilTests-acknowledgements.plist */,
+				337E7F865F69CCDF50596A5C40909F08 /* Pods-PvFacilTests-dummy.m */,
+				A8ED347944108DB2EE919E2BDED1CBB1 /* Pods-PvFacilTests-Info.plist */,
+				1C3290FC2F7DE4A1F45D6BF3F9A4C9D3 /* Pods-PvFacilTests-umbrella.h */,
+				A73C1A22A12DD055C5BBEA25AD34B8AC /* Pods-PvFacilTests.debug.xcconfig */,
+				33C6DFA6D61CA2EBFEFFBFE4E09FB26E /* Pods-PvFacilTests.release.xcconfig */,
+			);
+			name = "Pods-PvFacilTests";
+			path = "Target Support Files/Pods-PvFacilTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		635C391EBEDEECEBED7C587C09F80C29 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */,
+				CB4FFE30125DB944A69FABB13465CBF9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		6DC984D737DB841E41A9D175E8069AED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */,
+				8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6DC984D737DB841E41A9D175E8069AED /* Base */,
+				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
+				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		AF1756B8296070A3349828E2491E3279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF9C8DFB6FBEC3C20ED8279530FEA0F /* Pods_PvFacil.framework */,
+				F953DD1F7F9B177DC813B6B233F63877 /* Pods_PvFacil_PvFacilUITests.framework */,
+				D07055516843D4722579BF83C36B144E /* Pods_PvFacilTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20130D41E33F1E87D6ECBF61E3B432F /* Pods-PvFacil */ = {
+			isa = PBXGroup;
+			children = (
+				15CA5291EE0A5426C20C2F3C5A1D0983 /* Pods-PvFacil.modulemap */,
+				4A89783B76D61A5E37471D6A16FC8A95 /* Pods-PvFacil-acknowledgements.markdown */,
+				BC9265126F8C0BAB4BD04587604B8CE7 /* Pods-PvFacil-acknowledgements.plist */,
+				665FC1FD4EB30F66ECB67020E2762898 /* Pods-PvFacil-dummy.m */,
+				98C287CACAF0A2A7C1EC3DB1794A4843 /* Pods-PvFacil-Info.plist */,
+				99DF311BFB8F005215608501F5601880 /* Pods-PvFacil-resources.sh */,
+				90C879FBE1A7EAD8D5BF0532DC45051A /* Pods-PvFacil-umbrella.h */,
+				B1AA92F60452F7A2DB3DD3E92BA9C633 /* Pods-PvFacil.debug.xcconfig */,
+				BEA0FA1D989C2474A1C474B8C90AC1BC /* Pods-PvFacil.release.xcconfig */,
+			);
+			name = "Pods-PvFacil";
+			path = "Target Support Files/Pods-PvFacil";
+			sourceTree = "<group>";
+		};
+		CB4FFE30125DB944A69FABB13465CBF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				AF1756B8296070A3349828E2491E3279 /* Products */,
+				05E42C0F96D78A8486C267E3A44F19CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		553121A0ED06BAB6C67BCB62543B9C18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51C4D627A6B009A7386908127ACFCC3 /* Pods-PvFacilTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F06C047D39997DA7A8F74912BFF23A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88363FDE2A3228E9121518CBEB8C9296 /* Pods-PvFacil-PvFacilUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADACFAD0071C9311439C81A635B0A22C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D506D318242CDE9C467A82BA311CBE92 /* Pods-PvFacil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1115BFDC4CEF6B8D7D3AE2D22A0E0276 /* Pods-PvFacil-PvFacilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571D38F0D74E00EFFBFF38AC36E0B65C /* Build configuration list for PBXNativeTarget "Pods-PvFacil-PvFacilUITests" */;
+			buildPhases = (
+				8F06C047D39997DA7A8F74912BFF23A8 /* Headers */,
+				FC4DA9D713FB61A938445D79D3BB62B9 /* Sources */,
+				5B53829BBC77C289F5ED980EA03342CE /* Frameworks */,
+				1F507A795DC621173D18023F87A6F937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201A840A88824DFC58ED6056D92894CD /* PBXTargetDependency */,
+			);
+			name = "Pods-PvFacil-PvFacilUITests";
+			productName = "Pods-PvFacil-PvFacilUITests";
+			productReference = F953DD1F7F9B177DC813B6B233F63877 /* Pods_PvFacil_PvFacilUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CF89B0AA975806A605CA31308FD57A2 /* Pods-PvFacil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1943BC71A98F44536D1C2F085E8108C8 /* Build configuration list for PBXNativeTarget "Pods-PvFacil" */;
+			buildPhases = (
+				ADACFAD0071C9311439C81A635B0A22C /* Headers */,
+				90BBA7F034C915FA51EFA934EFF47F2E /* Sources */,
+				6322FAD9B399DCCC8B3172DEDF0B4E86 /* Frameworks */,
+				04B959811F7CC52750FB045181FAD39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72366EC528B2D53E50B4079F29222E85 /* PBXTargetDependency */,
+			);
+			name = "Pods-PvFacil";
+			productName = "Pods-PvFacil";
+			productReference = 2EF9C8DFB6FBEC3C20ED8279530FEA0F /* Pods_PvFacil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9AAD4818EA9D0CE0DC6D685BEAA86AD /* Pods-PvFacilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE81126A2825F05AA6B44515806DF109 /* Build configuration list for PBXNativeTarget "Pods-PvFacilTests" */;
+			buildPhases = (
+				553121A0ED06BAB6C67BCB62543B9C18 /* Headers */,
+				78B745ADC92232FB9C3D6B195A4A4CA0 /* Sources */,
+				E5E488683A58DBCE70D8EACDA4784B57 /* Frameworks */,
+				CE097D639365CFB7EC4466A1FFEB96E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CE3C3486066DBA17E5383C74346B835 /* PBXTargetDependency */,
+			);
+			name = "Pods-PvFacilTests";
+			productName = "Pods-PvFacilTests";
+			productReference = D07055516843D4722579BF83C36B144E /* Pods_PvFacilTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF1756B8296070A3349828E2491E3279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				9CF89B0AA975806A605CA31308FD57A2 /* Pods-PvFacil */,
+				1115BFDC4CEF6B8D7D3AE2D22A0E0276 /* Pods-PvFacil-PvFacilUITests */,
+				C9AAD4818EA9D0CE0DC6D685BEAA86AD /* Pods-PvFacilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B959811F7CC52750FB045181FAD39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F507A795DC621173D18023F87A6F937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE097D639365CFB7EC4466A1FFEB96E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B745ADC92232FB9C3D6B195A4A4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD176FB26B141E64F089FBB65577876 /* Pods-PvFacilTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BBA7F034C915FA51EFA934EFF47F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17131F118D601DF6E2AD7E77085554CC /* Pods-PvFacil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4DA9D713FB61A938445D79D3BB62B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B706D419E5CF03EAE3362D80C5A4C2 /* Pods-PvFacil-PvFacilUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CE3C3486066DBA17E5383C74346B835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PvFacil";
+			target = 9CF89B0AA975806A605CA31308FD57A2 /* Pods-PvFacil */;
+			targetProxy = 26AF088E2662A09B41ECAAFEA293A00D /* PBXContainerItemProxy */;
+		};
+		201A840A88824DFC58ED6056D92894CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 827A6F1CC7A2C44284A4CF8B4B7C9D99 /* PBXContainerItemProxy */;
+		};
+		72366EC528B2D53E50B4079F29222E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = E1AF93930D3A3F09098CB5844D68B30A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA2F6C3374269018190547B4C720774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6302B8FD044C377E38CB00D48840468 /* Pods-PvFacil-PvFacilUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacil-PvFacilUITests/Pods-PvFacil-PvFacilUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacil-PvFacilUITests/Pods-PvFacil-PvFacilUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		203177EE4E09C31A74A2CF00E29B9140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA0FA1D989C2474A1C474B8C90AC1BC /* Pods-PvFacil.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacil/Pods-PvFacil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacil/Pods-PvFacil.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24242B68567EA92F01F6AC672B2E8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32442A0799E2C9531298D8A51C603C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AA92F60452F7A2DB3DD3E92BA9C633 /* Pods-PvFacil.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacil/Pods-PvFacil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacil/Pods-PvFacil.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F2F56DB17D545FCF28860FBEFB5F74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775B31D1061EC9217349CB9341AD4EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95AB7CA7BED35CC1F411C1212D0D2C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C6DFA6D61CA2EBFEFFBFE4E09FB26E /* Pods-PvFacilTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacilTests/Pods-PvFacilTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacilTests/Pods-PvFacilTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1F047DCA0BD09314FE4EA59BE813C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35A0B357CB047E3BF73C4675EF262AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B014249D20F5321DC5BEFA6EE69CB7C1 /* Pods-PvFacil-PvFacilUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacil-PvFacilUITests/Pods-PvFacil-PvFacilUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacil-PvFacilUITests/Pods-PvFacil-PvFacilUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCD2D32A2C85878DF1A840961549548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73C1A22A12DD055C5BBEA25AD34B8AC /* Pods-PvFacilTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PvFacilTests/Pods-PvFacilTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PvFacilTests/Pods-PvFacilTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1943BC71A98F44536D1C2F085E8108C8 /* Build configuration list for PBXNativeTarget "Pods-PvFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32442A0799E2C9531298D8A51C603C73 /* Debug */,
+				203177EE4E09C31A74A2CF00E29B9140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F56DB17D545FCF28860FBEFB5F74F /* Debug */,
+				B1F047DCA0BD09314FE4EA59BE813C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24242B68567EA92F01F6AC672B2E8287 /* Debug */,
+				775B31D1061EC9217349CB9341AD4EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571D38F0D74E00EFFBFF38AC36E0B65C /* Build configuration list for PBXNativeTarget "Pods-PvFacil-PvFacilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA2F6C3374269018190547B4C720774 /* Debug */,
+				B35A0B357CB047E3BF73C4675EF262AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE81126A2825F05AA6B44515806DF109 /* Build configuration list for PBXNativeTarget "Pods-PvFacilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD2D32A2C85878DF1A840961549548C /* Debug */,
+				95AB7CA7BED35CC1F411C1212D0D2C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_PvFacil_PvFacilUITests {
+  umbrella header "Pods-PvFacil-PvFacilUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
